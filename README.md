@@ -1,12 +1,12 @@
 <div align="center">
-    <h1>c-template</h1>
-    <h2>C/C++ template for starting your projects faster</h2>
+    <h1>cpp-template</h1>
+    <h2>C++ template for starting your projects faster</h2>
 </div>
 
 <div align="center">
-  <img alt="Stargazers" src="https://img.shields.io/github/stars/budchirp/c-template?style=for-the-badge&colorA=0b1221&colorB=ff8e8e" />
-  <img alt="Last commit" src="https://img.shields.io/github/last-commit/budchirp/c-template?style=for-the-badge&colorA=0b1221&colorB=BDB0E4" />
-  <img alt="Issues" src="https://img.shields.io/github/issues/budchirp/c-template?style=for-the-badge&colorA=0b1221&colorB=FBC19D" />
+  <img alt="Stargazers" src="https://img.shields.io/github/stars/budchirp/cpp-template?style=for-the-badge&colorA=0b1221&colorB=ff8e8e" />
+  <img alt="Last commit" src="https://img.shields.io/github/last-commit/budchirp/cpp-template?style=for-the-badge&colorA=0b1221&colorB=BDB0E4" />
+  <img alt="Issues" src="https://img.shields.io/github/issues/budchirp/cpp-template?style=for-the-badge&colorA=0b1221&colorB=FBC19D" />
 </div>
 
 ## 💾 Getting started
@@ -21,12 +21,10 @@
 1. Clone the repo
 
 ```sh
-git clone https://github.com/budchirp/c-template && cd c-template
+git clone https://github.com/budchirp/cpp-template && cd cpp-template
 ```
 
 2. Change project name in `CMakeLists.txt`
-
-> NOTE: For C++ support change the project language to `CXX`
 
 3. Compile the code
 
