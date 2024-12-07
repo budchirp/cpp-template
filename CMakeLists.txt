@@ -15,9 +15,9 @@ add_compile_options(
   -Wall -Wextra -Wpedantic
 )
 
-file(GLOB HEADERS "include/*.hpp" "include/*.hxx")
+file(GLOB_RECURSE HEADERS "include/*/*.hpp" "include/*.hpp")
 message(STATUS "Found headers: ${HEADERS}")
-file(GLOB SOURCES "src/*.cpp")
+file(GLOB_RECURSE SOURCES "src/*/*.cpp" "src/*.cpp")
 message(STATUS "Found sources: ${SOURCES}")
 
 add_executable(${PROJECT_NAME} ${HEADERS} ${SOURCES})
